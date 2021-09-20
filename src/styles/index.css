@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+@layer base {
+  body {
+    @apply overflow-x-hidden;
+    @apply font-roboto;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply transition-transform;
+    @apply py-2 px-3;
+    @apply uppercase text-base text-white;
+    @apply rounded-full;
+    @apply active:transform active:scale-95;
+    @apply drop-shadow-2xl;
+    @apply outline-none;
+  }
+
+  .btn-primary {
+    @apply bg-teal-600;
+    @apply hover:bg-teal-700;
+    @apply focus:ring-1 focus:ring-offset-1 focus:ring-teal-600;
+    min-width: 100px;
+  }
+
+  .icon-btn {
+    @apply text-teal-600;
+    @apply hover:bg-gray-300;
+  }
+}
