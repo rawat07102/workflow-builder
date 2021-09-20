@@ -1,14 +1,13 @@
 # Workflow Builder
 
-## TODO
+## Tasks
 
 - [x] Drawer Layout Component
 - [x] Add react-flow-renderer
-- [x] New action button
-- [ ] Action information form layout
 - [x] Create edges
-- [ ] email action form
-- [ ] meeting action form
+- [x] Custom Node
+- [x] email action form
+- [x] meeting action form
 - [ ] reminder action form
 
 ## Common
